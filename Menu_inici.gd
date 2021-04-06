@@ -19,7 +19,7 @@ func update_score(punts):
 	$Etiqueta_marcador.text = str(punts)
 	
 func _on_Timer_missatge_timeout():
-	$Timer_missatge.hide()
+	$Titol.hide()
 
 func _on_Button_pressed():
 	$Button.hide()
